@@ -35,7 +35,7 @@ The tagset is included in the XML using the `<legenda>` tag, and can be summariz
 | Transformation - Verbal Features | 10 | 20 | __30__ |
 | __Total__ | __575__ | __591__ | __1166__ |
 
-The `<simplifications>` tag introduces the list of simplifications texts. Each simplification pair uses the `<simplification>` tag: the `type` attribute links the pair to the corresponding simplification type; the `<before>` and `<after>` tags contain the text before and after the simplification, respectively. Inside them, `<ins>` and `<del>` tags are used to highlight the parts where the text has been modified (`<ins>` means 'insert', `<del>` means 'delete').
+The `<simplifications>` tag introduces the list of simplifications texts. Each simplification pair uses the `<simplification>` tag: the `type` attribute links the pair to the corresponding simplification type; the `origin` attribute specifies the resource (`itwiki` for Wikipedia, `tn` for the Municipality of Trento); the `<before>` and `<after>` tags contain the text before and after the simplification, respectively. Inside them, `<ins>` and `<del>` tags are used to highlight the parts where the text has been modified (`<ins>` means 'insert', `<del>` means 'delete').
 
 ## Credits
 
