@@ -17,23 +17,23 @@ The tagset is included in the XML using the `<legenda>` tag, and can be summariz
 
 | Type | Count (part one) | Count (part two) | Total |
 |---|---:|---:|---:|
-| Split | 20 | 18 | 38 |
-| Merge | 22 | 0 | 22 |
-| Reordering | 14 | 20 | 34 |
-| Insert - Verb | 11 | 5 | 16 |
-| Insert - Subject | 5 | 1 | 6 |
-| Insert - Other | 58 | 21 | 79 |
-| Delete - Verb | 12 | 1 | 13 |
-| Delete - Subject | 17 | 1 | 18 |
-| Delete - Other | 146 | 31 | 177 |
-| Transformation - Lexical Substitution (word level) | 96 | 253 | 349 |
-| Transformation - Lexical Substitution (phrase level) | 143 | 184 | 327 |
-| Transformation - Anaphoric replacement | 14 | 3 | 17 |
-| Transformation - Noun to Verb | 3 | 32 | 35 |
-| Transformation - Verb to Noun (nominalization) | 2 | 0 | 2 |
-| Transformation - Verbal Voice | 2 | 1 | 3 |
-| Transformation - Verbal Features | 10 | 20 | 30 |
-| Total | 575 | 591 | 1166 |
+| Split | 20 | 18 | __38__ |
+| Merge | 22 | 0 | __22__ |
+| Reordering | 14 | 20 | __34__ |
+| Insert - Verb | 11 | 5 | __16__ |
+| Insert - Subject | 5 | 1 | __6__ |
+| Insert - Other | 58 | 21 | __79__ |
+| Delete - Verb | 12 | 1 | __13__ |
+| Delete - Subject | 17 | 1 | __18__ |
+| Delete - Other | 146 | 31 | __177__ |
+| Transformation - Lexical Substitution (word level) | 96 | 253 | __349__ |
+| Transformation - Lexical Substitution (phrase level) | 143 | 184 | __327__ |
+| Transformation - Anaphoric replacement | 14 | 3 | __17__ |
+| Transformation - Noun to Verb | 3 | 32 | __35__ |
+| Transformation - Verb to Noun (nominalization) | 2 | 0 | __2__ |
+| Transformation - Verbal Voice | 2 | 1 | __3__ |
+| Transformation - Verbal Features | 10 | 20 | __30__ |
+| __Total__ | __575__ | __591__ | __1166__ |
 
 The `<simplifications>` tag introduces the list of simplifications texts. Each simplification pair uses the `<simplification>` tag: the `type` attribute links the pair to the corresponding simplification type; the `<before>` and `<after>` tags contain the text before and after the simplification, respectively. Inside them, `<ins>` and `<del>` tags are used to highlight the parts where the text has been modified (`<ins>` means 'insert', `<del>` means 'delete').
 
