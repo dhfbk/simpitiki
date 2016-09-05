@@ -17,22 +17,22 @@ The tagset is included in the XML using the `<legenda>` tag, and can be summariz
 
 | Type | Count (part one) | Count (part two) |
 |---|---:|---:|
-| Split | 20 |
-| Merge | 22 |
-| Reordering | 14 |
-| Insert - Verb | 11 |
-| Insert - Subject | 5 |
-| Insert - Other | 58 |
-| Delete - Verb | 12 |
-| Delete - Subject | 17 |
-| Delete - Other | 146 |
-| Transformation - Lexical Substitution (word level) | 96 |
-| Transformation - Lexical Substitution (phrase level) | 143 |
-| Transformation - Anaphoric replacement | 14 |
-| Transformation - Noun to Verb | 3 |
-| Transformation - Verb to Noun (nominalization) | 2 |
-| Transformation - Verbal Voice | 2 |
-| Transformation - Verbal Features | 10 |
+| Split | 20 | 18
+| Merge | 22 | 0
+| Reordering | 14 | 20
+| Insert - Verb | 11 | 5
+| Insert - Subject | 5 | 1
+| Insert - Other | 58 | 21
+| Delete - Verb | 12 | 1
+| Delete - Subject | 17 | 1
+| Delete - Other | 146 | 31
+| Transformation - Lexical Substitution (word level) | 96 | 253
+| Transformation - Lexical Substitution (phrase level) | 143 | 184
+| Transformation - Anaphoric replacement | 14 | 3
+| Transformation - Noun to Verb | 3 | 32
+| Transformation - Verb to Noun (nominalization) | 2 | 0
+| Transformation - Verbal Voice | 2 | 1
+| Transformation - Verbal Features | 10 | 20
 
 The `<simplifications>` tag introduces the list of simplifications texts. Each simplification pair uses the `<simplification>` tag: the `type` attribute links the pair to the corresponding simplification type; the `<before>` and `<after>` tags contain the text before and after the simplification, respectively. Inside them, `<ins>` and `<del>` tags are used to highlight the parts where the text has been modified (`<ins>` means 'insert', `<del>` means 'delete').
 
