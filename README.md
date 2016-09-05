@@ -15,24 +15,25 @@ The corpus in XML format can be downloaded directly from this GitHub repository:
 In order to develop a corpus which is compliant with the annotation scheme already used in previous works on simplification, we followed the simplification types described in [(Brunato et al., 2015)](http://www.cnr.it/istituti/ProdottoDellaRicerca.html?cds=048&id=332693).
 The tagset is included in the XML using the `<legenda>` tag, and can be summarized as follows:
 
-| Type | Count (part one) | Count (part two) |
-|---|---:|---:|
-| Split | 20 | 18
-| Merge | 22 | 0
-| Reordering | 14 | 20
-| Insert - Verb | 11 | 5
-| Insert - Subject | 5 | 1
-| Insert - Other | 58 | 21
-| Delete - Verb | 12 | 1
-| Delete - Subject | 17 | 1
-| Delete - Other | 146 | 31
-| Transformation - Lexical Substitution (word level) | 96 | 253
-| Transformation - Lexical Substitution (phrase level) | 143 | 184
-| Transformation - Anaphoric replacement | 14 | 3
-| Transformation - Noun to Verb | 3 | 32
-| Transformation - Verb to Noun (nominalization) | 2 | 0
-| Transformation - Verbal Voice | 2 | 1
-| Transformation - Verbal Features | 10 | 20
+| Type | Count (part one) | Count (part two) | Total |
+|---|---:|---:|---:|
+| Split | 20 | 18 | 38 |
+| Merge | 22 | 0 | 22 |
+| Reordering | 14 | 20 | 34 |
+| Insert - Verb | 11 | 5 | 16 |
+| Insert - Subject | 5 | 1 | 6 |
+| Insert - Other | 58 | 21 | 79 |
+| Delete - Verb | 12 | 1 | 13 |
+| Delete - Subject | 17 | 1 | 18 |
+| Delete - Other | 146 | 31 | 177 |
+| Transformation - Lexical Substitution (word level) | 96 | 253 | 349 |
+| Transformation - Lexical Substitution (phrase level) | 143 | 184 | 327 |
+| Transformation - Anaphoric replacement | 14 | 3 | 17 |
+| Transformation - Noun to Verb | 3 | 32 | 35 |
+| Transformation - Verb to Noun (nominalization) | 2 | 0 | 2 |
+| Transformation - Verbal Voice | 2 | 1 | 3 |
+| Transformation - Verbal Features | 10 | 20 | 30 |
+| Total | 575 | 591 | 1166 |
 
 The `<simplifications>` tag introduces the list of simplifications texts. Each simplification pair uses the `<simplification>` tag: the `type` attribute links the pair to the corresponding simplification type; the `<before>` and `<after>` tags contain the text before and after the simplification, respectively. Inside them, `<ins>` and `<del>` tags are used to highlight the parts where the text has been modified (`<ins>` means 'insert', `<del>` means 'delete').
 
