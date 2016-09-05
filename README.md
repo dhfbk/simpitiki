@@ -33,3 +33,7 @@ The tagset is included in the XML using the `<legenda>` tag, and can be summariz
 * Transformation - Verbal Features
 
 The `<simplifications>` tag introduces the list of simplifications texts. Each simplification pair uses the `<simplification>` tag: the `type` attribute links the pair to the corresponding simplification type; the `<before>` and `<after>` tags contain the text before and after the simplification, respectively. Inside them, `<ins>` and `<del>` tags are used to highlight the parts where the text has been modified (`<ins>` means 'insert', `<del>` means 'delete').
+
+## Contacts
+
+For more information about the corpus, please send an e-mail to [aprosio@fbk.eu](mailto:aprosio@fbk.eu).
