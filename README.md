@@ -41,4 +41,6 @@ The `<simplifications>` tag introduces the list of simplifications texts. Each s
 
 This resource has been developed in the [Digital Humanities Unit](http://dh.fbk.eu/) at [Fondazione Bruno Kessler](http://www.fbk.eu/) by Sara Tonelli, Alessio Palmero Aprosio and Francesca Saltori.
 
-For more information about the corpus, please send an e-mail to [aprosio@fbk.eu](mailto:aprosio@fbk.eu).
+The research leading to this corpus was partially supported by the EU Horizon 2020 Programme via the SIMPATICO Project (H2020-EURO-6-2015, n. 692819).
+
+For more information, please send an e-mail to [aprosio@fbk.eu](mailto:aprosio@fbk.eu).
