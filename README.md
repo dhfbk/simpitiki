@@ -10,7 +10,7 @@ The second part is manually created, using the same annotation paradigm, startin
 
 ## The corpus
 
-The corpus in XML format can be downloaded directly from this GitHub repository: [simpitiki.xml](https://github.com/dhfbk/simpitiki/blob/master/simpitiki.xml).
+In the [corpus](https://github.com/dhfbk/simpitiki/tree/master/corpus) folder one can find both versions of the corpus. Data contained in version 2 has better sentence boundaries.
 
 In order to develop a corpus which is compliant with the annotation scheme already used in previous works on simplification, we followed the simplification types described in [(Brunato et al., 2015)](http://www.cnr.it/istituti/ProdottoDellaRicerca.html?cds=048&id=332693).
 The tagset is included in the XML using the `<legenda>` tag, and can be summarized as follows (columns from 2 to 4 count the number of instances for each type for each resource):

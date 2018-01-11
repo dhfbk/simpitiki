@@ -1,6 +1,7 @@
 package eu.fbk.dh.simpitiki;
 
 import eu.fbk.utils.core.diff_match_patch;
+import eu.fbk.utils.wikipedia.WikipediaText;
 import org.jsoup.safety.Whitelist;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
