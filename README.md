@@ -4,7 +4,7 @@ SIMPITIKI is a Simplification corpus for Italian and it consists of two sets of 
 
 The first part is the result of a study aimed at assessing the possibility to leverage a simplification corpus from Wikipedia in a semi-automated way, starting from Wikipedia edits. The study is inspired by the work presented in [(Woodsend and Lapata 2011)](http://homepages.inf.ed.ac.uk/kwoodsen/wiki.html), in which a set of parallel sentences was extracted from Simple Wikipedia revision history.
 However, the present work is different in that: (i) we use the Italian Wikipedia revision history, demonstrating that the approach can be applied also to languages other than English and on edits of Wikipedia that were not created for educational purposes, and (ii) we manually select the actual simplifications and label them following the annotation scheme already applied to other Italian corpora. This makes possible the comparison with other resources for text simplification, and allows a seamless integration between different corpora. 
-Our methodology can be summarised as follows: we first select the edited sentence pairs which were commented as `simplified' in Wikipedia edits, filtering out some specific simplification types (for example, template pages). Then, we manually check the extracted pairs and, in case of simplification, we annotate the types in compliance with the existing annotation scheme for Italian (see below).
+Our methodology can be summarised as follows: we first select the edited sentence pairs which were commented as 'simplified' in Wikipedia edits, filtering out some specific simplification types (for example, template pages). Then, we manually check the extracted pairs and, in case of simplification, we annotate the types in compliance with the existing annotation scheme for Italian (see below).
 
 The second part is manually created, using the same annotation paradigm, starting from documents in the administrative domain, downloaded from the [Municipality of Trento website](http://www.comune.trento.it/).
 
@@ -43,4 +43,21 @@ This resource has been developed in the [Digital Humanities Unit](http://dh.fbk.
 
 The research leading to this corpus is partially supported by the EU Horizon 2020 Programme via the [SIMPATICO Project](http://www.simpatico-project.eu/) (H2020-EURO-6-2015, n. 692819).
 
+If you use Simpitiki in your work or research, please cite the following paper:
+
+Tonelli, Sara, Alessio Palmero Aprosio, and Francesca Saltori. "SIMPITIKI: a Simplification corpus for Italian.". _Proceedings of CLiC-it (2016)_.
+
+```
+@article{tonelli2016simpitiki,
+  title={SIMPITIKI: a Simplification corpus for Italian},
+  author={Tonelli, Sara and Aprosio, Alessio Palmero and Saltori, Francesca},
+  journal={Proceedings of CLiC-it},
+  year={2016}
+}
+```
+
 For more information, please send an e-mail to [aprosio@fbk.eu](mailto:aprosio@fbk.eu).
+
+## License
+
+The Simpitiki corpus is released under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
