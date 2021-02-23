@@ -43,7 +43,7 @@ This resource has been developed in the [Digital Humanities Unit](http://dh.fbk.
 
 The research leading to this corpus is partially supported by the EU Horizon 2020 Programme via the [SIMPATICO Project](http://www.simpatico-project.eu/) (H2020-EURO-6-2015, n. 692819).
 
-If you use Simpitiki in your work or research, please cite the following paper:
+If you use SIMPITIKI in your work or research, please cite the following paper:
 
 Tonelli, Sara, Alessio Palmero Aprosio, and Francesca Saltori. "SIMPITIKI: a Simplification corpus for Italian.". _Proceedings of CLiC-it (2016)_.
 
@@ -60,4 +60,4 @@ For more information, please send an e-mail to [aprosio@fbk.eu](mailto:aprosio@f
 
 ## License
 
-The Simpitiki corpus is released under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+The SIMPITIKI corpus is released under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
